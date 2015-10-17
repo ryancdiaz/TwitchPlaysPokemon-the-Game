@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Pokemon_RBY_PalletTown.h</itemPath>
+      <itemPath>collide.h</itemPath>
+      <itemPath>collision.h</itemPath>
+      <itemPath>defeat.h</itemPath>
+      <itemPath>floatingText.h</itemPath>
+      <itemPath>gameMusic.h</itemPath>
+      <itemPath>myLib.h</itemPath>
+      <itemPath>opening2.h</itemPath>
+      <itemPath>sprites.h</itemPath>
+      <itemPath>text.h</itemPath>
+      <itemPath>victory.h</itemPath>
+      <itemPath>walk.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Pokemon_RBY_PalletTown.c</itemPath>
+      <itemPath>collide.c</itemPath>
+      <itemPath>collision.c</itemPath>
+      <itemPath>defeat.c</itemPath>
+      <itemPath>floatingText.c</itemPath>
+      <itemPath>gameMusic.c</itemPath>
+      <itemPath>main.c</itemPath>
+      <itemPath>myLib.c</itemPath>
+      <itemPath>opening2.c</itemPath>
+      <itemPath>sprites.c</itemPath>
+      <itemPath>text.c</itemPath>
+      <itemPath>victory.c</itemPath>
+      <itemPath>walk.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <output>cs2261</output>
+        </linkerTool>
+      </compileType>
+      <item path="Pokemon_RBY_PalletTown.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Pokemon_RBY_PalletTown.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="collide.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="collide.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="collision.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="collision.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="defeat.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="defeat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="floatingText.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="floatingText.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="gameMusic.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="gameMusic.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="myLib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="myLib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="opening2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="opening2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sprites.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sprites.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="text.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="text.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="victory.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="victory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="walk.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="walk.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>cs2261</output>
+        </linkerTool>
+      </compileType>
+      <item path="Pokemon_RBY_PalletTown.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Pokemon_RBY_PalletTown.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="collide.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="collide.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="collision.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="collision.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="defeat.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="defeat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="floatingText.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="floatingText.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="gameMusic.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="gameMusic.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="myLib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="myLib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="opening2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="opening2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sprites.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sprites.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="text.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="text.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="victory.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="victory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="walk.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="walk.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
